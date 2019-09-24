@@ -1,0 +1,39 @@
+.mainHeader {
+    background-color: #F781BE;
+    color: white;
+    padding: 20px;
+    font-size: 40px;
+    font-family:'Righteous', cursive;
+    text-align: center;
+}
+
+body {
+    /* background-color: #58FAF4; */
+    background-image: url("../images/background.jpg");
+    /* no-repeat center center fixed;
+    background-size: cover; */
+ }
+
+ .instructions, .randomNum {
+     background-color: #A9D0F5;
+     color: white;
+     padding: 20px;
+     font-size: 28px;
+     text-align: center;
+     font-family: 'Catamaran', sans-serif;
+    
+ }
+
+ .basicText {
+     font-size: 20px;
+     font-family: 'Catamaran', sans-serif;
+
+ }
+
+ .imageContainer {        
+    float: center;
+    max-width: 960px;
+    margin: auto;
+    line-height: 20px;
+ }
+
