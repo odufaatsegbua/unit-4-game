@@ -23,6 +23,19 @@
     
  }
 
+ .gameControls {
+    background-color:#8258FA;
+    
+    
+    /* #0B3B24; */
+    
+    
+    /* #088A4B; */
+    
+    /* #A9F5BC; */
+ }
+
+
  .basicText {
      font-size: 20px;
      font-family: 'Catamaran', sans-serif;
@@ -36,3 +49,22 @@
     line-height: 20px;
  }
 
+#blueCrystal {
+    padding:1px;
+    border:3px solid #F5A9D0;
+}
+
+#yellowCrystal {
+    padding:1px;
+    border:3px solid #F5A9D0;
+}
+
+#greenCrystal {
+    padding:1px;
+    border:3px solid #F5A9D0;
+}
+
+#pinkCrystal {
+    padding:1px;
+    border:3px solid #F5A9D0;
+}
