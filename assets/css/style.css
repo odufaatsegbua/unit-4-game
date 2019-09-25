@@ -1,5 +1,5 @@
 .mainHeader {
-    background-color: #F781BE;
+    background-color: #F5A9D0;
     color: white;
     padding: 20px;
     font-size: 40px;
@@ -7,11 +7,10 @@
     text-align: center;
 }
 
-body {
-    /* background-color: #58FAF4; */
-    background-image: url("../images/background.jpg");
-    /* no-repeat center center fixed;
-    background-size: cover; */
+
+  html {
+    background-image: url(../images/movingBackground.gif);
+    background-size: cover;
  }
 
  .instructions, .randomNum {
