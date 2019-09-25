@@ -10,7 +10,7 @@ $(document).ready(function() {
     var win=0;
     var loss=0;
 
-    // computer guessnand score score variables defined\\
+    // computer guess and score score variables defined\\
     // crystal variables defined
     function init() {
          compGuess=0;
@@ -20,6 +20,8 @@ $(document).ready(function() {
          greenCrystal=0;
          pinkCrystal=0;
          userScore=0;
+
+        //  random numbers for crystals \\
         compGuess= Math.floor(Math.random() * 120) + 19;
         console.log(compGuess);
         $('#computerGuess').html(compGuess);
@@ -40,8 +42,8 @@ $(document).ready(function() {
     init();
 
     // Music controls and game functions \\
-        $('.crystal').click(function play(){
-            if($(this).hasClass('crystal')){
+        $('.crystals').click(function play(){
+            if($(this).hasClass('crystals')){
                 score=parseInt($(this).attr('value'));
                 userScore+=score;
                 $('#showscore').html(userScore);    

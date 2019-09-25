@@ -1,7 +1,7 @@
 .mainHeader {
     background-color: #F5A9D0;
     color: white;
-    padding: 20px;
+    padding: 30px;
     font-size: 40px;
     font-family:'Righteous', cursive;
     text-align: center;
@@ -16,15 +16,19 @@
  .instructions, .gameControls {
      background-color: #A9D0F5;
      color: white;
-     padding: 20px;
-     font-size: 28px;
+     padding: 5px;
+     font-size: 33px;
      text-align: center;
      font-family: 'Catamaran', sans-serif;
+     margin-left: 220px;
+     margin-right: 170px;
     
  }
 
  .gameControls {
     background-color:#8258FA;
+    margin-left: 220px;
+    margin-right: 170px;
     
     
     /* #0B3B24; */
@@ -37,8 +41,9 @@
 
 
  .basicText {
-     font-size: 20px;
+     font-size: 22px;
      font-family: 'Catamaran', sans-serif;
+     padding: 10px;
 
  }
 
@@ -47,6 +52,7 @@
     max-width: 960px;
     margin: auto;
     line-height: 20px;
+    margin-left: 240px;
  }
 
 #blueCrystal {
