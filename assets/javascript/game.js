@@ -22,7 +22,7 @@ $(document).ready(function() {
          userScore=0;
 
         //  random numbers for crystals \\
-        compGuess= Math.floor(Math.random() * 120) + 19;
+        compGuess= Math.floor(Math.random() * 102) + 19;
         console.log(compGuess);
         $('#computerGuess').html(compGuess);
         blueCrystal= Math.floor(Math.random() * 12) + 1;
@@ -48,17 +48,17 @@ $(document).ready(function() {
                 userScore+=score;
                 $('#showscore').html(userScore);    
             if(userScore===compGuess){
-                 var audio= document.createElement('audio');
-                     audio.setAttribute('src', 'assets/audio/you-win-sound-effect.mp3');
-                 audio.play();
+                //  var audio= document.createElement('audio');
+                //      audio.setAttribute('src', 'assets/');
+                     document.getElementById("gamemusic").play();
                     win++;
-                 $('#wins').html(win);
+                 $('#win').html(win);
                  init();
             }else if(userScore>compGuess){
                 loss++;
-                 var audio= document.createElement('audio');
-                    audio.setAttribute('src', 'assets/audio/Lose-sound-effects.mp3');
-                  audio.play();
+                //  var audio= document.createElement('audio');
+                    // audio.setAttribute('src', 'assets/audio/Lose-sound-effects.mp3');
+                  document.getElementById("gamemusic").play();
                  $('#lose').html(loss);
                  init();
                 }
