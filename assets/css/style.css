@@ -13,7 +13,7 @@
     background-size: cover;
  }
 
- .instructions, .randomNum {
+ .instructions, .wins, .losses, .totalScore {
      background-color: #A9D0F5;
      color: white;
      padding: 20px;
