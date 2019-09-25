@@ -4,9 +4,14 @@
 // Any time a crystal is clicked, it should be added to the previous results\\
 
 
+// Wins and losses defined\\
+
 $(document).ready(function() {
     var win=0;
     var loss=0;
+
+    // computer guessnand score score variables defined\\
+    // crystal variables defined
     function init() {
          compGuess=0;
          userScore=0;
@@ -28,11 +33,13 @@ $(document).ready(function() {
         $('.green').attr('value',greenCrystal);
         console.log("green's value is: "+greenCrystal);
         pinkCrystal= Math.floor(Math.random() * 12) + 1;
-        $('.yellow').attr('value',pinkCrystal);
+        $('.pink').attr('value',pinkCrystal);
         console.log("pinks's value is: "+pinkCrystal);
         $('#showscore').html(userScore);    
     }
     init();
+
+    // Music controls and game functions \\
         $('.crystal').click(function play(){
             if($(this).hasClass('crystal')){
                 score=parseInt($(this).attr('value'));

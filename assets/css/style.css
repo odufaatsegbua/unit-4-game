@@ -13,7 +13,7 @@
     background-size: cover;
  }
 
- .instructions, .wins, .losses, .totalScore {
+ .instructions, .gameControls {
      background-color: #A9D0F5;
      color: white;
      padding: 20px;

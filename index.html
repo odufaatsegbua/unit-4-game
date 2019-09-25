@@ -44,7 +44,55 @@
     </div>
     <br>
 
-    <div class="wins">
+    <div class="gameControls">
+
+    <div id="tracker"></div>
+        <!--Row with random number appears-->
+        <div id="random-number">
+            <h3>Random number:</h3>
+            <h3 id="computerGuess"></h3>
+        </div>
+        <!--Wins & Losses-->
+
+        <div id="wins">
+            Wins: <span id="wins">0</span>
+        </div>
+    
+        <div id="losses">
+            Losses: <span id="lose">0</span>
+        </div>
+    
+        <div id="score">
+            Your total score is:
+            <h3>Your Total Score:</h3>
+            <h3 id="showscore"></h3>
+        </div>
+
+    </div>
+
+    <!--Music & Audio Controls-->
+    <div>
+        <audio id="gamemusic">
+            <source src="assets/Crash Bandicoot Sounds - Crystal Collect.mp3"
+                type="audio/mp3">
+        </audio>
+    </div>
+    <div id="musicControls" class="text-center">
+        <button id="playtheme"
+            onclick="document.getElementById('gamemusic').play();">
+            <span class="playtheme"></span> Play Theme!</button>
+        <button id="pausetheme"
+            onclick="document.getElementById('gamemusic').pause();">
+            <span class="pausetheme"></span> Pause Song</button>
+
+            <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+        </body>
+        </html>
+
+
+
+<!-- /////////////// -->
+    <!-- <div class="wins">
         Wins: 0
     </div>
 
@@ -59,4 +107,5 @@
    
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
 </body>
-</html>
+</html> -->
+
